@@ -8,14 +8,13 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
 
-plugins:
 - mkdocstrings:
     handlers:
       python:
-        path: [api]
+        paths: [api]
 
 markdown_extensions:
   - attr_list
 
-extra-css:
+extra_css:
   - stylesheets/extra.css 
