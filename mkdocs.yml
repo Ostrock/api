@@ -1,0 +1,15 @@
+site_name: API
+repo_url: https://github.com/Ostrock/api
+repo_name: Ostrock/API 
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra-css:
+  - stylesheets/extra.css 
