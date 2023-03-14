@@ -8,6 +8,12 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
 
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        path: [api]
+
 markdown_extensions:
   - attr_list
 
