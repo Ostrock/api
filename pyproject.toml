@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.94.1"
+googlemaps = "^4.10.0"
+uvicorn = {extras = ["all"], version = "^0.21.0"}
 
 
 [tool.poetry.group.dev.dependencies]
@@ -23,7 +26,9 @@ mkdocstrings = "^0.20.0"
 mkdocstrings-python = "^0.8.3"
 
 [tool.pytest.ini_options]
-pythonpath = "."
+pythonpath = [
+  "."
+]
 addopts = "--doctest-modules"
 
 [tool.isort]
